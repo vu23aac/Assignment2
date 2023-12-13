@@ -72,7 +72,7 @@ def cereal_prepcipitation_plot(df):
     year_2020 = df_sub["2020"].unstack()
 
     # Creating subplots
-    fig, ax = plt.subplots(2, 2, figsize=(15, 8))
+    fig, ax = plt.subplots(2, 2, figsize=(15, 9))
 
     # Plotting on the second subplot (ax1)
     ax1 = plt.subplot(2, 2, 1)
